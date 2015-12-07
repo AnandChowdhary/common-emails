@@ -1,0 +1,17 @@
+<script type="text/javascript">
+
+	var firstNames = ["Aarav", "Mohammed", "Vihaan", "Aditya", "Sai", "Arjun", "Aryan", "Reyansh", "Vivaan", "Krishna", "Atharv", "Ayaan", "Ishaan", "Dhruv", "Ryan", "Arnav", "Shaurya", "Kabir", "Aarush", "Rudra", "Ayush", "Advik", "Ansh", "Sathvik", "Kiaan", "Dev", "Siddharth", "Parth", "Advaith", "Raghav", "Jai", "Abdul", "Shivansh", "Avi", "Samar", "Pratyush", "Viaan", "Neel", "Om", "Anirudh", "Isaac", "Devansh", "Yash", "Abeer", "Rehaan", "Tejas", "Zayan", "Advay", "Sarthak", "Darsh", "Anay", "Gautam", "Jason", "Agastya", "Rohan", "Daksh", "Manan", "Pranav", "Abhiram", "Samarth", "Aadhya", "Ananya", "Saanvi", "Aaradhya", "Anaya", "Aanya", "Anika", "Pari", "Myra", "Shanaya", "Diya", "Riya", "Aarna", "Aditi", "Kiara", "Aahana", "Kyra", "Aalia", "Aarohi", "Prisha", "Sai", "Khushi", "Maryam", "Olivia", "Anvi", "Shreya", "Angel", "Akshara", "Sarah", "Vanya", "Siya", "Meera", "Mishka", "Krisha", "Saumya", "Amaira", "Advika", "Zara", "Lakshmi", "Dhriti", "Sahana", "Vedhika", "Trisha", "Navya", "Tanvi", "Jhanvi", "Kavya", "Avni", "Anaisha", "Ira", "Aria", "Meher", "Pihu", "Andrea", "Anushka", "Ishita", "Ishanvi", "Kashvi", "Zoya", "Vaishnavi"];
+
+	var lastNames = ["Kumar", "Lal", "Sharma", "Shan", "Jai", "Pal", "Aggarwal", "Raje", "Chande", "Chander", "Nara", "Rai", "Nath", "Goel", "Bhat", "Raji", "Anand", "Suri", "Kapoor", "Chandra", "Patel", "Verma", "Malhotra", "Sai", "Engineer", "Arun", "Madan", "Srini", "Prasad", "Sara", "Rana", "Raman", "Subram", "Mehta", "Subramani", "Sethi", "Vijaya", "Malik", "Narayan", "Mittal", "Nita", "Kishore", "Roy", "Chaudhary", "Charan", "Nigam", "Sen", "Subramanian", "Nirmal", "Pawan", "Manohar", "Sahni", "Lalit", "Rajan", "Sehgal", "Uddin", "Saini", "Neel", "Jana", "Darsha", "Ranga", "Vish", "Mehra", "Puri", "Muthu", "Gandhi", "Lata", "Chauhan", "Saxena", "Swami", "Neela", "Chandrasekar", "Soni", "Dhawan", "Nagpal", "Joshi", "Krishnamurthy", "Persaud", "Punj", "Veena", "Mahajan", "Manju", "Dutta", "Sandeep", "Narang", "Naran", "Veer", "Tyagi", "Samuel", "Srivastava", "Sudha", "Srivas", "Mati", "Neelam", "Rastogi", "Bhatt", "Rajagopal", "Srivastav", "Ganesh", "Jindal"];
+
+	var domains = ["yahoo", "hotmail", "aol", "gmail", "msn", "hotmail", "outlook", "rediffmail"];
+
+	for (var i = 0; i < firstNames.length; i++) {
+		for (var j = 0; j < lastNames.length; j++) {
+			for (var k = 0; k < domains.length; k++) {
+				document.write(firstNames[i].toLowerCase() + lastNames[j].toLowerCase() + "@" + domains[k] + ".com<br>");
+			}
+		}
+	}
+
+</script>
